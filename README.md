@@ -51,4 +51,5 @@ Svi resursi vezani uz ovaj projekt dostupni su na sljedećim poveznicama:
 
 ###  Napomena za pokretanje
 Uz projekt je priložena već generirana baza podataka (`videoigre.db`). Kod je dizajniran tako da će automatski koristiti tu bazu za brzi pregled podataka. U slučaju da baza nije prisutna, skripta će automatski pokrenuti proces dohvaćanja i generiranja nove baze (što može potrajati nekoliko minuta zbog API ograničenja).
+Također je i priložen csv.
 
