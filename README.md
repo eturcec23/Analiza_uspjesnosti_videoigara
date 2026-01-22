@@ -30,7 +30,7 @@ Projekt je implementiran u programskom jeziku **Python** koristeći sljedeće bi
 Korišteni su međusobno heterogeni izvori podataka:
 1.  **CSV:** *Video Game Sales Dataset* (Kaggle) - podaci o prodaji.
 2.  **REST API:** *RAWG Video Games Database API* - dodatni meta-podaci o igrama.
-3.  **Generirani podaci:** Algoritamska procjena budžeta temeljena na žanru (implementirano pomoću `numpy.random`).
+3.  **Generirani podaci:** Algoritamska procjena budžeta temeljena na žanru (implementirano pomoću `numpy.random`). (Uz projekt je priložena već generirana baza podataka (`videoigre.db`). Kod je dizajniran tako da će automatski koristiti tu bazu ili kreirati novu ako ona ne postoji.)
 
 ##  Upute za pokretanje
 
@@ -41,3 +41,14 @@ Potrebno je imati instaliran Python 3 i sljedeće biblioteke (ako pokrećete lok
 
 ```bash
 pip install -r requirements.txt
+
+##  Poveznice na projekt
+
+Svi resursi vezani uz ovaj projekt dostupni su na sljedećim poveznicama:
+
+* **GitHub Repozitorij:** https://github.com/eturcec23/Analiza_uspjesnosti_videoigara
+* **Google Colab Bilježnica:** https://colab.research.google.com/drive/1EcafDQlF9kPn_oIWcB4snIozCb7KyAev?usp=sharing
+
+###  Napomena za pokretanje
+Uz projekt je priložena već generirana baza podataka (`videoigre.db`). Kod je dizajniran tako da će automatski koristiti tu bazu za brzi pregled podataka. U slučaju da baza nije prisutna, skripta će automatski pokrenuti proces dohvaćanja i generiranja nove baze (što može potrajati nekoliko minuta zbog API ograničenja).
+
