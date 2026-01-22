@@ -40,4 +40,4 @@ Projekt je izrađen u obliku Jupyter (Colab) bilježnice.
 Potrebno je imati instaliran Python 3 i sljedeće biblioteke (ako pokrećete lokalno):
 
 ```bash
-pip install pandas numpy sqlalchemy flask requests matplotlib seaborn
+pip install -r requirements.txt
